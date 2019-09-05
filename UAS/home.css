@@ -1,0 +1,348 @@
+Body {
+    background-image: linear-gradient(to right bottom, #ececec, #ebebf0, #e8ebf4, #e4ebf8, #deecfc);
+}
+
+/*NAV*/
+.navbar {
+    height: 59px;
+    width: 100%;
+    position: relative;
+    background-color: #000272;
+}
+
+.judul {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background-color: #000033;
+    padding: 15px 0px 15px 0px;
+    /*atas,kanan,bawah, kiri*/
+}
+
+.navitem {
+    display: inline;
+    float: left;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.navbar .navitem a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px 12px;
+    text-align: center;
+}
+
+.navbar .navitem a:hover {
+    background-color: #0000ff;
+}
+
+.dropbtn {
+    background-color: #000272;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    font-family: Roboto;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000272;
+    min-width: 210px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0000ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0000ff;
+}
+
+/*NAV, WELCOME*/
+
+.table1 {
+    width: 100%;
+}
+
+.welcome {
+    background-image: url(welcome.jpg);
+    padding: 388px 0px 119px 0px;
+    position: relative;
+    background-size: 100% 100%;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+i.satu {
+    background-color: darkturquoise;
+}
+
+i.dua {
+    background-color: steelblue;
+
+}
+
+i.tiga {
+    background-color: #006c84;
+}
+
+i.empat {
+    background-color: #5ea8a7;
+}
+
+.garis i {
+    float: right;
+    width: 25%;
+    height: 6px;
+}
+
+/*WELCOME*/
+
+.judul1 {
+    font-size: 36px;
+    text-align: center;
+    color: darkblue;
+}
+
+.table {
+    width: 100%;
+}
+
+.kolom1 {
+    width: 33%;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.gmobil1 {
+    width: 95%;
+    height: 230px;
+    text-decoration: none;
+}
+
+.tmobil {
+    color: #003399;
+    font-size: 24px;
+}
+
+.tmobil1 {
+    color: #cc0000;
+    font-size: 20px;
+}
+
+
+/**/
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: #000033;
+}
+
+.foot {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+/**/
+
+.profiles {
+    padding: 285px 50px 60px 50px;
+    background-image: url(certificate-2.png);
+    background-size: 100% 100%;
+}
+
+.pro1 {
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 0.02em #000;
+}
+
+.pro2 {
+    font-size: 24px;
+    color: white;
+    width: 50%;
+    -webkit-text-stroke: 0.02em #000;
+    text-align: justify;
+}
+
+.struktur {
+    text-align: justify;
+    color: black;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.str1 {
+    font-size: 32px;
+}
+
+/**/
+
+
+.contact {
+    padding: 350px 0px 60px 40px;
+    background-image: url(contact.jpg);
+    background-size: 100% 100%;
+}
+
+.gtel {
+    width: 20%;
+}
+
+.h3 h3 {
+    text-align: center;
+    font-size: 30px;
+    color: MidnightBlue;
+}
+
+.gam2,
+.gam3,
+.gam4,
+.gam5 {
+    width: 100px;
+    height: 100px;
+}
+
+.do1,
+.do2,
+.do3,
+.do4 {
+    width: 25%;
+    text-align: center;
+}
+
+.ta {
+    width: 80%;
+    margin: auto;
+    table-layout: fixed;
+}
+
+/**/
+
+.ber1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.berita1 {
+    width: 70%;
+    margin: auto;
+    background-color: GhostWhite;
+}
+
+.kober1 {
+    width: 40%;
+}
+
+.kober2 {
+    width: 60%;
+    font-size: 30px;
+    padding: 30px;
+    color: black;
+}
+
+.gber1 {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.sim1 {
+    color: red;
+    font-size: 40px;
+
+}
+
+.ka1 {
+    color: black;
+}
+
+/**/
+
+.gjud1 {
+    width: 100%;
+    height: 400px;
+}
+
+.gjud2 {
+    width: 80%;
+    height: 400px;
+    text-align: center;
+}
+
+.ber2 {
+    width: 65%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+background-color: GhostWhite;
+}
+
+.ber3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tesnew{
+    text-align: left;
+}
+
+.berita2{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.kober4{
+    width: 20%;
+}
+
+.kober5{
+    width: 30%;
+}
+
+.gber3{
+    width: 100%;
+    height: 200px;
+}
+
+.ka1{
+font-size: 24px;
+}
+
+.s{
+    text-align: center;
+}
